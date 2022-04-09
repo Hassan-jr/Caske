@@ -1,0 +1,131 @@
+#tog{
+    visibility:hidden;
+}
+
+.nav-container{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   color: #019267;
+   margin-bottom: -15px;
+}
+.nav-logo{
+    font-weight: 800;
+    font-family: 35px;
+    margin-left: 20px;
+}
+.nav-links{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: #019267;
+}
+.toggle-links{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: #019267;
+}
+
+
+
+.profile{
+    height: 50px;
+    width: 50px;
+    background-color: #57CC99;
+    color: #ffffff;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.toggled-profle{
+    margin-right: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    background-color: #019267;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 1px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 1;
+}
+.logout{
+    background-color: #57CC99;
+}
+.login-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.link-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width:700PX){
+       .menu{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           visibility: visible;
+           position: absolute;
+           right: 0px;
+
+       }
+       .toggle-links{
+        visibility: hidden;
+    }
+       #tog{
+      visibility:visible;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #019267;
+        position: absolute;
+        top: 50px;
+        z-index: 1;
+        background-color: #57CC99;
+        right: 0px;
+       height: 250px;
+       width: 200px;
+
+    }
+    .nav-links{
+        visibility:hidden;
+    }
+    .nav-logo{
+        position: absolute;
+       left : 0px;
+       top:  -20px;
+    }
+
+    .toggle-prof2{
+        position: absolute;
+        right : 30px;
+         margin-top: 0px;
+
+    }
+}

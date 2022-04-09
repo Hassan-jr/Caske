@@ -1,0 +1,126 @@
+.element {
+    margin-top: -10px;
+    height: 100%;
+    padding: 15px;
+    background:
+      radial-gradient(
+        227.77% 227.77% at -8.45% -10.97%,
+        rgba(147, 248, 255, 1) 0%,
+        rgba(255, 200, 249, 0) 60%
+      ),
+      radial-gradient(
+        111.77% 111.77% at 107% 111%,
+        rgba(147, 248, 255, 1) 0%,
+        rgba(255, 200, 249, 0) 100%
+      ),
+      linear-gradient(
+        0deg,
+        rgba(255, 200, 249, 1) 0%,
+        rgba(255, 200, 249, 1) 100%
+      );
+  }
+  
+  
+
+
+
+
+
+
+form {
+       background-color: #fff;
+
+     max-width: 500px;
+
+     margin: 50px auto;
+
+    padding: 30px 20px;
+
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+   }
+
+        /* Styling form-control Class */
+
+        .form-control {
+
+            text-align: left;
+
+            margin-bottom: 25px;
+
+        }
+ 
+
+        /* Styling form-control Label */ 
+
+        .form-control label {
+
+            display: block;
+
+            margin-bottom: 10px;
+
+        }
+ 
+
+        /* Styling form-control input, 
+
+        select, textarea */
+
+        .form-control input,
+
+        .form-control select,
+
+        .form-control textarea {
+
+            border: 1px solid #777;
+
+            border-radius: 2px;
+
+            font-family: inherit;
+
+            padding: 10px;
+
+            display: block;
+
+            width: 95%;
+
+        }
+ 
+
+        /* Styling form-control Radio 
+
+        button and Checkbox */
+
+        .form-control input[type="radio"],
+
+        .form-control input[type="checkbox"] {
+
+            display: inline-block;
+
+            width: auto;
+
+        }
+ 
+
+        /* Styling Button */
+
+        button {
+
+            background-color: #05c46b;
+
+            border: 1px solid #777;
+
+            border-radius: 2px;
+
+            font-family: inherit;
+
+            font-size: 21px;
+
+            display: block;
+
+            width: 100%;
+
+            margin-top: 50px;
+
+            margin-bottom: 20px;
+
+        }

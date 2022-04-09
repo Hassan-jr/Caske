@@ -1,0 +1,67 @@
+.footer{
+    background-color:#878787;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.owner{
+    width: 400px;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+  gap: 10px;
+  line-height: 1px;
+    border-radius: 0px;
+    background: #ffffff;
+    box-shadow:  5px 5px 10px #878787,
+                 -5px -5px 10px #ffffff; 
+}
+.owner-img{
+    width: 80px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 90%;
+}
+
+.house-icon2{
+    height: 50px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #ffffff;
+    color: #57CC99;
+}
+.bottom-footer{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 15px;
+   
+   
+}
+.bottom-footer1{
+    width: 300px;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 15px;
+    
+}
+.bottom-footer2{
+    width: 200px;
+    display: flex;
+    color:white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #57CC99;
+   
+}

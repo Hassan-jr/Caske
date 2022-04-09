@@ -1,0 +1,102 @@
+.header-container{
+    color: black;
+    margin-bottom: -80px;
+}
+.header-container p {
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+
+.headerimg{
+    width: 100vw;
+    height: 60vh;
+
+}
+.header-content{
+    width: 100vw;
+    height: 60vh;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(238,238,238,1) 0%, rgba(246,243,243,1) 19%, transparent, transparent);
+position: absolute;
+top : 57px;
+}
+.house-icon{
+    width: 40px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #ffffff;
+    color: #57CC99;
+}
+.content-header{
+    margin-left: 20px;
+}
+
+.parent-search{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.btn-search{
+width: 100px;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: -2px;
+}
+.input-search{
+    width: 300px;
+}
+
+.search{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+
+    border-radius: 0px;
+background: #ffffff;
+box-shadow:  5px 5px 10px #878787,
+             -5px -5px 10px #ffffff; 
+}
+
+@media only screen and (max-width: 600px){
+    .input-search{
+        width: 200px;
+        height: 30px;
+        margin-bottom: 0;
+
+    }
+    .parent-search{
+        position: relative;
+        bottom: -20px;
+    }
+    .content-header{
+        line-height: 25px;
+        height: 40vh;
+        width: 70vw;
+        margin-left: 0px;
+       
+    }
+    .headerimg{
+        height: 50vh;
+    }
+    .header-content{
+        width: 50vw;
+        position: absolute;
+        top : 50px; 
+        height: 20vh;
+    }
+    .header-container{
+        color: black;
+        margin-bottom: 0px;
+        font-weight: 700;
+    }
+}
