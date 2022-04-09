@@ -43,6 +43,9 @@ function logout (){
 }
 
   return (
+      <div className="main-nav"> 
+
+     
     <div className='nav-container'>
 
         {/* Nav log */}
@@ -193,6 +196,7 @@ function logout (){
        </div>
       
        
+    </div>
     </div>
   )
 }

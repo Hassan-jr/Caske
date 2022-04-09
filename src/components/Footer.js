@@ -13,15 +13,17 @@ import LogoutIcon from '@mui/icons-material/Logout';
 
 function Footer() {
   return (
-    <div className="footer">
-        {/* Owner */}
-        <div className="owner">
+    <div>
+
+    {/* Owner */}
+    <div className="owner">
             <img className="owner-img" src={Rentdata[7].img} alt="" />
             <div>
                 <h2>ABDIAZIZ GACAL</h2>
                 <p>Founder And CEO of Caske Real Estate</p>
             </div>
         </div>
+    <div className="footer">
 
         {/* Bottom Footer */}
       
@@ -78,6 +80,8 @@ function Footer() {
      
 
      </div>
+    </div>
+
     </div>
   )
 }
