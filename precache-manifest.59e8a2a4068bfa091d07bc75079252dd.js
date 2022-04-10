@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2a26c54ace6051e026f7",
-    "url": "/Caske/static/css/main.0a2364ac.chunk.css"
+    "revision": "ce58da5fb493fbd6de33",
+    "url": "/Caske/static/css/main.520bd02c.chunk.css"
   },
   {
-    "revision": "2a26c54ace6051e026f7",
-    "url": "/Caske/static/js/main.2a26c54a.chunk.js"
+    "revision": "ce58da5fb493fbd6de33",
+    "url": "/Caske/static/js/main.ce58da5f.chunk.js"
   },
   {
     "revision": "26ddafddc6cdadae872d",
     "url": "/Caske/static/js/1.26ddafdd.chunk.js"
   },
   {
-    "revision": "ff6523d8119f49697153",
-    "url": "/Caske/static/js/2.ff6523d8.chunk.js"
+    "revision": "a14f693252bdda811806",
+    "url": "/Caske/static/js/2.a14f6932.chunk.js"
   },
   {
     "revision": "82ee78cebbd229f7597c",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/Caske/static/media/img16.72a15ebf.jpg"
   },
   {
-    "revision": "9554ff5278d4cc78022b62071e18ed32",
+    "revision": "65eef698f404f8d91b9992e33e642fad",
     "url": "/Caske/index.html"
   }
 ];

@@ -1,11 +1,11 @@
 {
-  "main.css": "/Caske/static/css/main.0a2364ac.chunk.css",
-  "main.js": "/Caske/static/js/main.2a26c54a.chunk.js",
-  "main.js.map": "/Caske/static/js/main.2a26c54a.chunk.js.map",
+  "main.css": "/Caske/static/css/main.520bd02c.chunk.css",
+  "main.js": "/Caske/static/js/main.ce58da5f.chunk.js",
+  "main.js.map": "/Caske/static/js/main.ce58da5f.chunk.js.map",
   "static/js/1.26ddafdd.chunk.js": "/Caske/static/js/1.26ddafdd.chunk.js",
   "static/js/1.26ddafdd.chunk.js.map": "/Caske/static/js/1.26ddafdd.chunk.js.map",
-  "static/js/2.ff6523d8.chunk.js": "/Caske/static/js/2.ff6523d8.chunk.js",
-  "static/js/2.ff6523d8.chunk.js.map": "/Caske/static/js/2.ff6523d8.chunk.js.map",
+  "static/js/2.a14f6932.chunk.js": "/Caske/static/js/2.a14f6932.chunk.js",
+  "static/js/2.a14f6932.chunk.js.map": "/Caske/static/js/2.a14f6932.chunk.js.map",
   "runtime~main.js": "/Caske/static/js/runtime~main.82ee78ce.js",
   "runtime~main.js.map": "/Caske/static/js/runtime~main.82ee78ce.js.map",
   "static/media/img2.jpg": "/Caske/static/media/img2.8c0be211.jpg",
@@ -32,8 +32,8 @@
   "static/media/img14.jpg": "/Caske/static/media/img14.8d306ee1.jpg",
   "static/media/img15.jpg": "/Caske/static/media/img15.f0f2b18d.jpg",
   "static/media/img16.jpg": "/Caske/static/media/img16.72a15ebf.jpg",
-  "static/css/main.0a2364ac.chunk.css.map": "/Caske/static/css/main.0a2364ac.chunk.css.map",
+  "static/css/main.520bd02c.chunk.css.map": "/Caske/static/css/main.520bd02c.chunk.css.map",
   "index.html": "/Caske/index.html",
-  "precache-manifest.0850e0b95b4e3c16d21a3b1f5c16f970.js": "/Caske/precache-manifest.0850e0b95b4e3c16d21a3b1f5c16f970.js",
+  "precache-manifest.59e8a2a4068bfa091d07bc75079252dd.js": "/Caske/precache-manifest.59e8a2a4068bfa091d07bc75079252dd.js",
   "service-worker.js": "/Caske/service-worker.js"
 }
