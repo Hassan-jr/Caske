@@ -50,13 +50,16 @@
 .profile{
     height: 50px;
     width: 50px;
-    background-color: #57CC99;
+    background-color: #ffffff;
     color: #ffffff;
     border-radius: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: -5px;
+    position: relative;
+    top: -10px;
    
 }
 .toggled-profle{

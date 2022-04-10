@@ -50,7 +50,9 @@ function logout (){
 
         {/* Nav log */}
         <div>
+            <Link to = "/">
             <h2 className='nav-logo'>CASKE</h2>
+            </Link>
         </div>
 
  {/* Nav links */}

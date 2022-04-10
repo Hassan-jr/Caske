@@ -1,6 +1,7 @@
 .footer{
     background-color:#878787;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -9,13 +10,16 @@
 
 
 .owner{
-    width: 400px;
+    /* width: 300px; */
+    height: 100px;
     padding: 10px;
     margin: 15px;
     display: flex;
     flex-direction: row;
+    justify-content:center;
+    align-items: center;
   gap: 10px;
-  line-height: 1px;
+  /* line-height: 1px; */
     border-radius: 0px;
     background: #ffffff;
     box-shadow:  5px 5px 10px #878787,
@@ -39,6 +43,7 @@
    width: 100%;
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
    justify-content: space-evenly;
    align-items: center;
    gap: 15px;
@@ -46,6 +51,7 @@
    
 }
 .bottom-footer1{
+    margin-left: 10px;
     width: 300px;
     color: #ffffff;
     font-weight: 600;
@@ -56,12 +62,13 @@
     
 }
 .bottom-footer2{
+    margin-left: 10px;
     width: 200px;
     display: flex;
     color:white;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    /* align-items: center; */
     color: #57CC99;
    
 }

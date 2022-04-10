@@ -2,7 +2,16 @@ import React from 'react'
 import HouseIcon from '@mui/icons-material/House';
 import './Header.css'
 import  img2 from '../images/img2.jpg'
+import { Link, useNavigate } from 'react-router-dom';
 function Header() {
+
+  let navigate = useNavigate();
+  function handleClick (){
+    navigate("/allproperties")
+  }
+  
+
+
   return (
     <div className="header-container">
         <img className="headerimg" src={img2} alt="" />
@@ -14,11 +23,13 @@ function Header() {
           <p>CASKA REAL ESTATE PROPERTIES</p>
 {/* content */}
 
-        <div className = "content-header">
+        <div className = "content-header"> 
         <h3>FIND  THE HOUSE OF</h3>
         <h3>YOIR DREAM USING</h3>
         <h3>OUR PLATFORM</h3>
-        <button className="btn-email">VIEW MORE</button>
+        <Link to="/allproperties">
+        <button className="btn-email" onClick={handleClick}>VIEW MORE</button>
+        </Link>
         </div>
 
         </div>

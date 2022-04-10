@@ -6,12 +6,19 @@ import HouseIcon from '@mui/icons-material/House';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
-import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import LogoutIcon from '@mui/icons-material/Logout';
 
 
 function Footer() {
+
+// log out
+function logout (){
+  localStorage.removeItem('user')
+  window.location.reload();
+}
+
+
+
   return (
     <div>
 
@@ -28,6 +35,7 @@ function Footer() {
         {/* Bottom Footer */}
       
   <div className="bottom-footer">
+
       <div className="bottom-footer1">
         <div className="house-icon2">
            <h2>CASKE <HouseIcon/></h2>  
@@ -63,17 +71,17 @@ function Footer() {
             Rent
         </Link>
         <Link to = "/contact" style={{ textDecoration: 'none' }}>
-            <div className="link-nav">
-            <ContactPageOutlinedIcon/>  Contact Me
-            </div>
+            {/* <div className="link-nav"> */}
+           Contact Me
+            {/* </div> */}
             </Link>
 
             <Link to = "/survey" style={{ textDecoration: 'none' }}>
-           <div  className="link-nav">  
-           <LibraryBooksIcon/>    Survey
-           </div>
+           {/* <div  className="link-nav">   */}
+              Survey
+           {/* </div> */}
            </Link>
-             <button className='logout' >  <LogoutIcon/>  LOG OUT</button>
+             <button className='logout' onClick={logout}>  <LogoutIcon/>  LOG OUT</button>
 
           </div>
 
