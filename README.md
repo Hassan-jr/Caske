@@ -1,4 +1,4 @@
-# Real-Estate Project
+# Real Estate Project
 
 ## Frontend Images of the Real Estate Project
 ![caske frontend image](https://github.com/Hassan-jr/Caske/blob/master/images/caske1.png?raw=true)
